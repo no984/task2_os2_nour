@@ -13,7 +13,7 @@ jobs:
       - name: 'befor'
         run: ls
 
-      - uses: action/checkot@v3
+      - uses: actions/checkot@v3
       
       
       - name: 'after'
