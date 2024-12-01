@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print folder contents'
+      - name: 'befor'
+        run: ls
+
+      - uses: action/checkot@v3
+      
+      
+      - name: 'after'
         run: ls
       
