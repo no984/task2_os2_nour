@@ -1,6 +1,6 @@
 on:
   push:
-    brnches:
+    branches:
       - master
 
 
@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: 'testing githup action'
         run: pwd
-        - name: 'testing printing'
-        run: echo nor
+      - name: 'testing printing'
+        run: echo nour
 
