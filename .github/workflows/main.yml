@@ -1,1 +1,17 @@
+on:
+  push:
+    brnches:
+      - master
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'testing githup action'
+        run: pwd
+        - name: 'testing printing'
+        run: echo nor
 
